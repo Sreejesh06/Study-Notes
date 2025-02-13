@@ -26,7 +26,20 @@ Both **interpreters** and **compilers** are used to convert high-level programmi
 - Suitable for writing long programs.
 - Example: Running a Python script (`python script.py`).
 
-## 5. Key Differences
+## 5. Identifiers and Keywords
+### **Identifiers**
+- Names used to identify variables, functions, classes, etc.
+- Must start with a letter (A-Z or a-z) or underscore (_) and can be followed by letters, digits (0-9), or underscores.
+- Cannot be a **keyword**.
+- Case-sensitive.
+- Example: `myVariable`, `_privateVar`, `ClassName`.
+
+### **Keywords**
+- Reserved words that have special meanings in a programming language.
+- Cannot be used as identifiers.
+- Example Python keywords: `if`, `else`, `while`, `for`, `return`, `def`, `class`, `import`.
+
+## 6. Key Differences
 
 | Feature         | Interpreter | Compiler |
 |---------------|-----------|---------|
@@ -34,3 +47,4 @@ Both **interpreters** and **compilers** are used to convert high-level programmi
 | Speed        | Slower | Faster |
 | Error Handling | Stops at first error | Shows all errors after compilation |
 | Example Languages | Python, JavaScript | C, C++, Java |
+
