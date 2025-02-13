@@ -15,7 +15,18 @@ Both **interpreters** and **compilers** are used to convert high-level programmi
 - Faster execution since translation happens only once.
 - Example languages: **C, C++, Java**.
 
-## 4. Key Differences
+## 4. Interactive Mode vs Script Mode
+### **Interactive Mode**
+- Executes code **immediately** after writing.
+- Used for testing and debugging small code snippets.
+- Example: Python shell (`python` in terminal).
+
+### **Script Mode**
+- Executes an entire script file at once.
+- Suitable for writing long programs.
+- Example: Running a Python script (`python script.py`).
+
+## 5. Key Differences
 
 | Feature         | Interpreter | Compiler |
 |---------------|-----------|---------|
