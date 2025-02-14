@@ -35,7 +35,7 @@ Both **interpreters** and **compilers** are used to convert high-level programmi
 - Example: `myVariable`, `_privateVar`, `ClassName`.
 
 ### **Keywords**
-- Reserved words that have special meanings in a programming language.
+- Reserved words that have special meanings in a programming language and there are 34  keywords  available in python
 - Cannot be used as identifiers.
 - Example Python keywords: `if`, `else`, `while`, `for`, `return`, `def`, `class`, `import`.
 
