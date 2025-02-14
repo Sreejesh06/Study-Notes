@@ -25,6 +25,10 @@ screen.title("Turtle Graphics")
 screen.bgcolor("white")
 turtle.done()
 ```
+turtle.Screen() creates a new window (canvas) where the turtle moves.
+screen.title("Turtle Graphics") sets the title of the window.
+screen.bgcolor("white") changes the background color of the canvas.
+turtle.done() tells Python that we're done giving commands.
 
 ### 2. Creating a Turtle Object
 ```python
