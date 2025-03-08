@@ -211,3 +211,19 @@ export function middleware(req) {
 ✅ **More flexible, better performance!**  
 
 ---
+
+## **📌 Summary - When to Use What?**  
+
+| Feature | **Pages Router (`pages/`)** | **App Router (`app/`)** |  
+|---------|----------------|----------------|  
+| **Routing System** | Simple but limited | Modern & structured |  
+| **Rendering** | Client-Side by default | Server-Side by default (faster) |  
+| **Layouts** | No built-in support | Supports **nested layouts** |  
+| **API Handling** | Uses `pages/api/` | Uses `app/api/` (better) |  
+| **SEO Metadata** | Uses `<Head>` manually | Uses `metadata` automatically |  
+| **Middleware** | `_middleware.js` | `middleware.js` (more powerful) |  
+
+✅ **Use `app/` for new projects** (better performance & organization).  
+✅ **Use `pages/` only for older projects that haven't migrated yet.**  
+
+---
