@@ -127,8 +127,47 @@ Node* deleteNode(Node* head, int x) {
 - New DLL:
 
 ```
+
 2 <-> 3 <-> 4 <-> 5
 
 ```
 
 ---
+
+### **Delete `x = 5` (Tail)**
+
+- New DLL:
+
+```
+1 <-> 2 <-> 3 <-> 4
+
+```
+
+---
+
+### **Delete `x = 3` (Middle)**
+
+- New DLL:
+
+```
+1 <-> 2 <-> 4 <-> 5
+
+```
+
+---
+
+## ✅ **Key Takeaways for Interview**
+
+1. **Edge cases:** Empty list, single node, invalid positions.
+2. **Pointer management:** Properly update `next` and `back` pointers.
+3. **Memory handling:** Always free the deleted node.
+4. **Complexity:** O(N) time, O(1) space.
+
+---
+
+## **🔥 Common Mistakes to Avoid**
+
+1. **Memory leaks:** Always `delete` the removed node.
+2. **Incorrect pointer updates:** Ensure `next` and `back` are properly linked.
+3. **Invalid position handling:** Avoid accessing `nullptr` in invalid cases.
+
