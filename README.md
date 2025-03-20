@@ -12,10 +12,15 @@
 
 ---
 
-## 🐍 **GitHub Snake Heatmap**
+## 🐍 **GitHub Contribution Snake**
 <p align="center">  
-    <img src="https://github.com/Sreejesh/Sreejesh/blob/output/github-contribution-grid-snake-dark.svg" alt="GitHub Snake Animation" />  
-</p>  
+  <picture>  
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake-dark.svg" />  
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake.svg" />  
+    <img alt="snake animation" src="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake.svg" />  
+  </picture>  
+</p>
+
 
 ---
 
