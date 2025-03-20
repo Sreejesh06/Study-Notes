@@ -5,8 +5,8 @@
 
   <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=F7941E&center=true&width=435&lines=Full-Stack+Developer;Tech+Speaker;" alt="Typing Effect" />
-
+  <!-- Typing Effect -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=F7941E&center=true&width=435&lines=Full-Stack+Developer;Tech+Speaker;" alt="Typing Effect" />
 
   <br />
 
@@ -20,6 +20,13 @@
   <!-- GitHub Stats -->
   <p>
     <img src="https://github-readme-stats.vercel.app/api?username=sreejesh06&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
+  </p>
+
+  <br />
+
+  <!-- Profile Visitors Count -->
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=sreejesh06&label=Profile+Views&color=F7941E&style=flat-square" alt="Profile Visitors" />
   </p>
 
   <br />
