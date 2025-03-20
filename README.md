@@ -7,7 +7,7 @@
 
 ## 🛠️ **Tech Stack**
 <p align="center">  
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,redis,sql,git,github,docker,postman,tailwind,figma,linux" alt="Tech Stack" />  
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,redis,mysql,git,github,docker,postman,tailwind,linux" alt="Tech Stack" />  
 </p>  
 
 ---
