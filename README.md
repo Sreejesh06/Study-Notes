@@ -15,9 +15,9 @@
 ## 🐍 **GitHub Contribution Snake**
 <p align="center">  
   <picture>  
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake-dark.svg" />  
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake.svg" />  
-    <img alt="snake animation" src="https://raw.githubusercontent.com/sreejesh06/sreejesh06/output/github-snake.svg" />  
+    <source media="(prefers-color-scheme: dark)" srcset="https://sreejesh06.github.io/sreejesh06/github-snake-dark.svg" />  
+    <source media="(prefers-color-scheme: light)" srcset="https://sreejesh06.github.io/sreejesh06/github-snake.svg" />  
+    <img alt="snake animation" src="https://sreejesh06.github.io/sreejesh06/github-snake.svg" />  
   </picture>  
 </p>
 
