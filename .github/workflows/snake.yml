@@ -1,9 +1,16 @@
 name: Generate Snake Game
 
+# Define event triggers
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * *"    # Runs every day at midnight
+  workflow_dispatch:         # Allows manual trigger
+  push:                      # Runs when you push code
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   snake:
@@ -23,5 +30,5 @@ jobs:
       - name: Push Snake to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: output
-          folder: dist
+          branch: output    # Deploy to the "output" branch
+          folder: dist       # Upload the snake animation files
