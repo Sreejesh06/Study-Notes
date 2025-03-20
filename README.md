@@ -12,7 +12,7 @@
 
   <!-- Tech Stack Icons -->
   <p>
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,git,github" alt="Tech Stack" height="100"/>
+    <img src="https://skillicons.dev/icons?i=js,react,nextjs,nodejs,express,mongodb,postman,vscode,git,github" alt="Tech Stack" height="100"/>
   </p>
 
   <br />
@@ -29,10 +29,10 @@
     <a href="https://github.com/sreejesh06">
       <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github" alt="GitHub"/>
     </a>
-    <a href="https://linkedin.com/in/sreejesh06">
+    <a href="https://www.linkedin.com/in/sreejesh-/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
     </a>
-    <a href="mailto:sreejesh@example.com">
+    <a href="mailto:sreejesh25122006@example.com">
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" alt="Email"/>
     </a>
   </p>
