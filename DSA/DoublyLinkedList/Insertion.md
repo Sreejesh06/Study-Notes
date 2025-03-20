@@ -10,7 +10,7 @@ A **Doubly Linked List (DLL)** is a data structure where each node contains:
 
 ---
 
-#### **Algorithm for Insertion at a Specific Position**
+### **Algorithm for Insertion at a Specific Position**
 1. **Create a New Node**
    - Allocate memory for the new node.
    - Set `newNode->data = value`.
@@ -137,3 +137,84 @@ int main() {
 ```
 
 ---
+### **Mistakes to Avoid During Interviews**
+
+---
+
+#### **1. Not Handling Edge Cases Properly**
+- **Mistake:** Failing to insert at the head when `pos = 1`.
+- **Fix:**
+```cpp
+if (pos == 1) {
+    newNode->next = head;
+    if (head) head->prev = newNode;
+    return newNode;  // New head
+}
+```
+
+---
+
+#### **2. Incorrect Pointer Adjustment**
+- **Mistake:** Forgetting to update both `next` and `prev` pointers.
+- **Fix:**
+```cpp
+newNode->next = temp->next;
+newNode->prev = temp;
+if (temp->next) temp->next->prev = newNode;
+temp->next = newNode;
+```
+
+---
+
+#### **3. Not Handling NULL Pointers**
+- **Mistake:** Accessing `temp->next->prev` without checking if `temp->next` is `NULL`.
+- **Fix:**
+```cpp
+if (temp->next) {
+    temp->next->prev = newNode;
+}
+```
+
+---
+
+#### **4. Incorrect Traversal Logic**
+- **Mistake:** Traversing one extra node or missing `(pos - 1)` node.
+- **Fix:**
+```cpp
+while (temp && count < pos - 1) {
+    temp = temp->next;
+    count++;
+}
+```
+
+---
+
+#### **5. Position Out of Bounds**
+- **Mistake:** Inserting at an invalid position.
+- **Fix:**
+```cpp
+if (!temp) {
+    cout << "Position out of bounds!" << endl;
+    return head;
+}
+```
+
+---
+
+#### **6. Incorrect Memory Management**
+- **Mistake:** Forgetting to free unused memory, causing memory leaks.
+- **Fix:**
+```cpp
+delete node;  // Free memory when removing a node
+```
+
+---
+
+#### **7. Incorrect Handling of Empty List**
+- **Mistake:** Not checking if the list is empty before inserting.
+- **Fix:**
+```cpp
+if (!head) {
+    return newNode;  // New node becomes head
+}
+```
