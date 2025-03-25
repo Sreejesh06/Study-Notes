@@ -146,5 +146,13 @@ After the loop:
    - After swapping, the next node is actually the **previous** one, so use `curr = curr->prev`.
 
 ---
+### **8. Easy Hints to Remember for Interviews**
+- **Think of "Swapping Connections":**
+  - `prev → next`
+  - `next → prev`
+- **Handle the base cases first** to avoid unnecessary processing.
+- **Move with `curr = curr->prev`** since the pointers are swapped.
+
+---
 
 
