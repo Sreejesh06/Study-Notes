@@ -1,5 +1,5 @@
 <div align="center">
-
+  
   <!-- Animated Name -->
   <img src="animated-name.svg" alt="Animated Name" width="600" />
 
